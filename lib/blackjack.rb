@@ -69,7 +69,7 @@ total_card_dealt = initial_round
 
 until total_card_dealt > 21
   total_card_dealt = hit?(total_card_dealt)
-  display_card_total
+  display_card_total(total_card_dealt)
 end
 end_game
 end
